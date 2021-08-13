@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Cleiton\\.nuget\\packages\\": {}
+    "C:\\Users\\cleit\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios\\DIO.Series\\DIO.Series.csproj",
+      "projectUniqueName": "D:\\Repositorios\\DIO\\DIO.Series\\DIO.Series.csproj",
       "projectName": "DIO.Series",
-      "projectPath": "D:\\Repositorios\\DIO.Series\\DIO.Series.csproj",
-      "packagesPath": "C:\\Users\\Cleiton\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositorios\\DIO.Series\\obj\\",
+      "projectPath": "D:\\Repositorios\\DIO\\DIO.Series\\DIO.Series.csproj",
+      "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositorios\\DIO\\DIO.Series\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cleiton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

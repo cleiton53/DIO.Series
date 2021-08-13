@@ -6,34 +6,35 @@ namespace DIO.Series
     public class SerieRepository : IRepository<Serie>
     {
         private List<Serie> listSerie = new List<Serie>();
+
+        public void Update(int id, Serie entidade)
+        {
+            listSerie[id] = entidade;
+        }
         public void Delete(int id)
         {
-            throw new System.NotImplementedException();
-        }
-
-        public Serie FindById(int id)
-        {
-            throw new System.NotImplementedException();
+           listSerie[id].Excluir();
         }
 
         public void Insert(Serie entidade)
         {
-            throw new System.NotImplementedException();
+            listSerie.Add(entidade);
         }
 
         public List<Serie> List()
         {
-            throw new System.NotImplementedException();
+            return listSerie;
+        }
+        public Serie FindById(int id)
+        {
+           return listSerie[id];
         }
 
         public int NextId()
         {
-            throw new System.NotImplementedException();
+            return listSerie.Count;
         }
 
-        public void Update(int id, Serie entidade)
-        {
-            throw new System.NotImplementedException();
-        }
+        
     }
 }
